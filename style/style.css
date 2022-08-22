@@ -117,7 +117,15 @@ body.lock {
   height: 120px;
   width: 300px;
 }
-
+.navbar-logo2 {
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 2%;
+}
+.navbar-logo2 img{
+  height: 120px;
+  width: 220px;
+}
 /*--------------------/Шапка--------------------*/
 /*--------------------Меню--------------------*/
 .menu__icon {

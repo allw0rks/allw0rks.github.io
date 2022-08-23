@@ -357,6 +357,19 @@ body.lock {
   overflow-y: scroll; /* прокрутка по вертикали */
   }
   .imgi{
+    width: 100%;
+  
+  }
+  .imgi img{
     width: 300px;
     height: 200px;
   }
+  .cen{
+    padding: 2%;
+  }
+ .imc{
+  display: inline-block;
+ }
+ .imc img{
+  width: 300px;  
+ }

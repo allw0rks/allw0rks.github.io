@@ -3,16 +3,13 @@ body{
   padding: 1%;
   background-color: #8fa3ac88;
 }
-
 .block1 img{
   width: auto;
   height: 360px;
 }
 .containerq {
     position: relative;
-
-  }
-  
+  }  
   /* Hide the images by default */
   .mySlides {
     display: none;
@@ -48,7 +45,6 @@ body{
     position: absolute;
     top: 0;
 }
-
 .sidenav1 {
   width: 130px;
   position: fixed;
@@ -59,7 +55,6 @@ body{
   overflow-x: hidden;
   padding: 8px 0;
 }
-
 .sidenav1 a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -67,22 +62,18 @@ body{
   color: #2196F3;
   display: block;
 }
-
 .sidenav1 a:hover {
   color: #064579;
 }
-
 .main1 {
   margin-left: 140px; /* Same width as the sidebar + left position in px */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
-
 @media screen and (max-height: 450px) {
   .sidenav1 {padding-top: 15px;}
   .sidenav1 a {font-size: 18px;}
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -108,11 +99,12 @@ body.lock {
           align-items: center;
   position: relative;
 }
+
 .block{
   width: 100%;
   height: 100px;
   background-color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 1%;
 }
 .navbar-logo {
   position: absolute;
@@ -122,26 +114,39 @@ body.lock {
   font-weight: 900;
   text-shadow:  #FC0 1px 0 10px;
 }
-.navbar-logo2 {
+.navbar-logo2 img{
   position: absolute;
   margin-left: 2%;
   margin-top: 1%;
-}
-.navbar-logo2 img{
   height: 70px;
   width: 120px;
 }
-.navbar-logo1 {
+.navbar-logo1 img{
   position: absolute;
   margin-left: 85%;
   margin-top: 1%;
-}
-.navbar-logo1 img{
   height: 70px;
   width: 150px;
 }
-
-
+@media (max-width: 768px) {
+  .block{
+    height: 40px;
+  }
+  .navbar-logo {
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 18%;
+  }
+  .navbar-logo1 img{
+    margin-left: 82%;
+    height: 30px;
+    width: 60px;
+  }
+  .navbar-logo2 img{
+    height: 30px;
+    width: 50px;
+  }
+}
 /*--------------------/Шапка--------------------*/
 /*--------------------Меню--------------------*/
 .menu__icon {
@@ -189,7 +194,6 @@ body.lock {
     bottom: calc(50% - 1px);
   }
 }
-
 @media (max-width: 768px) {
   body{
     padding: 0%;
@@ -205,11 +209,9 @@ body.lock {
     transition: all 0.2s;
   }
 }
-
 .menu__body.active {
   left: 0;
 }
-
 .menu__list {
   list-style-type: none;
   display: -webkit-box;
@@ -219,7 +221,6 @@ body.lock {
   font-size: 20px;
   font-weight: 600;
 }
-
 @media (max-width: 768px) {
   .menu__list {
     -webkit-box-orient: vertical;
@@ -234,16 +235,13 @@ body.lock {
     overflow: auto;
   }
 }
-
 .menu__link {
   color: #fff;
   text-decoration: none;
 }
-
 .menu__link:hover {
   text-decoration: underline;
 }
-
 @media (max-width: 768px) {
   .menu__link {
     display: block;
@@ -251,8 +249,6 @@ body.lock {
     line-height: 70px;
   }
 }
-
-
 .dropdown {
     position: relative;
     display: block;
@@ -273,8 +269,6 @@ body.lock {
 }
 .dropdown-content a:hover {background-color: rgba(43, 39, 59, 0.384);}  
 .dropdown:hover .dropdown-content {display: block;}
-  
-
 .block2{
   margin-top: 2%;
   width: 100%;
@@ -282,8 +276,7 @@ body.lock {
 .left{
   float: left;
   background-color: #fff;
-  width: 25%;
-  
+  width: 25%;  
 }
 .nav_ul{
   list-style-type: none;
@@ -356,8 +349,7 @@ body.lock {
   overflow-y: scroll; /* прокрутка по вертикали */
   }
   .imgi{
-    width: 100%;
-  
+    width: 100%; 
   }
   .imgi img{
     width: 300px;

@@ -307,7 +307,6 @@ body.lock {
   padding-bottom: 10px;
   text-align: center;
   font-size: 18px;
-  margin-bottom: 10px;
 }
 .center{
   float: left;
@@ -369,7 +368,19 @@ body.lock {
   }
  .imc{
   display: inline-block;
+  margin-bottom: 2%;
+  text-align: center;
  }
  .imc img{
-  width: 300px;  
+  width: 290px;  
+ }
+ .sss{
+  height: 335px;
+  text-align: center;
+ }
+ .sr a{
+  color: #000;
+ }
+ .sr img{
+  width: 100%;
  }

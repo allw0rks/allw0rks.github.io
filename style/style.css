@@ -191,6 +191,10 @@ body.lock {
 .nav_ul{
   list-style-type: none;
 }
+.left_l{
+  height: 310px;
+  background-color: #FFF;
+}
 .left_l a{
   text-decoration: none;  
   font-size: 18px;
@@ -199,7 +203,6 @@ body.lock {
   text-align: center;
   padding-top: 5px;
   display: block;
-  background-color: #FFF;
 }
 .left_l li:hover{
   background-color: #230a3f57;
@@ -254,8 +257,7 @@ body.lock {
   height: 300px; /* высота нашего блока */
   width: 98%; /* ширина нашего блока */
   background: #fff; /* цвет фона, белый */
-  border: 1px solid #C1C1C1; /* размер и цвет границы блока */
-  overflow-x: scroll; /* прокрутка по горизонтали */
+  border: 1px solid #C1C1C1; 
   overflow-y: scroll; /* прокрутка по вертикали */
   }
   .imgi{
@@ -277,7 +279,7 @@ body.lock {
   width: 290px;  
  }
  .sss{
-  height: 335px;
+  height: 310px;
   text-align: center;
  }
  .sr a{
@@ -304,4 +306,26 @@ body.lock {
   text-align: center;
   font-size: 18px;
   font-weight: 800;
+}
+
+
+.prokrutka::-webkit-scrollbar{
+  width: 15px;
+}
+
+/* Track */
+.prokrutka::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(83, 73, 73); 
+  /* border-radius: 10px; */
+}
+ 
+/* Handle */
+.prokrutka::-webkit-scrollbar-thumb {
+  background: #45727449; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.prokrutka::-webkit-scrollbar-thumb:hover {
+  background: #4572747a; 
 }

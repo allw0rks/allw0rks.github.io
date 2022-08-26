@@ -292,6 +292,10 @@ body.lock {
 }
 .lr img{
   width: 100%;
-  height: 350px;
-  margin-top: 1%;
+  height: 300px;
+}
+.lr p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
 }

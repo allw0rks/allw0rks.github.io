@@ -186,22 +186,22 @@ body.lock {
 }
 .left{
   float: left;
-  background-color: #fff;
   width: 25%;  
 }
 .nav_ul{
   list-style-type: none;
 }
-.left a{
+.left_l a{
   text-decoration: none;  
   font-size: 18px;
 }
-.left li{
+.left_l li{
   text-align: center;
   padding-top: 5px;
   display: block;
+  background-color: #FFF;
 }
-.left li:hover{
+.left_l li:hover{
   background-color: #230a3f57;
 }
 .ss{
@@ -222,7 +222,6 @@ body.lock {
   float: left;
   margin-left: 1%;
   width: 25%;
-  background-color: #fff;
 }
 .block3{
   padding-top: 20px;
@@ -287,3 +286,12 @@ body.lock {
  .sr img{
   width: 100%;
  }
+ .lr{
+  margin-top: 4%;
+  background-color: #FFF;
+}
+.lr img{
+  width: 100%;
+  height: 350px;
+  margin-top: 1%;
+}

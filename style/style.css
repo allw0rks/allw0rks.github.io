@@ -291,8 +291,14 @@ body.lock {
   background-color: #FFF;
 }
 .lr img{
-  width: 100%;
-  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8%;
+  margin-top: 8%;
+  width: 80%;
+  height: 300px;
+  
 }
 .lr p{
   text-align: center;

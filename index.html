@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow"></i></button>
   <div class="block">
     <span class="navbar-logo2"><img src="img/gerb.png"></span>
     <span class="navbar-logo">Шуъбаи Маорифи шаҳри Бӯстон</span>
@@ -95,7 +95,7 @@
       </div>
       <div class="left_l">
         <ul class="nav_ul">
-          <li><a href="#" class="">Мудири маориф</a></li>
+          <li><a href="Mudir.html" class="">Мудири маориф</a></li>
           <hr>
           <li><a href="#" class="">Шӯрои маориф</a></li>
           <hr>
@@ -105,12 +105,14 @@
             <li><a href="#" class="">Мактабҳои шаҳр</a></li>
             <hr>
             <div class="dropdown-content">
-              <li><a href="#" class="">Мактабҳои шаҳр</a></li>
-              <li><a href="#" class="">Мактабҳои шаҳр</a></li>
-              <li><a href="#" class="">Мактабҳои шаҳр</a></li>
-              <li><a href="#" class="">Мактабҳои шаҳр</a></li>
-              <li><a href="#" class="">Мактабҳои шаҳр</a></li>
-              <li><a href="#" class="">Мактабҳои шаҳр</a></li>
+              <li><a href="#" class="">МТМУ №3</a></li>
+              <li><a href="#" class="">МТМУ №4</a></li>
+              <li><a href="#" class="">МТМУ №10</a></li>
+              <li><a href="#" class="">МТМУ №11</a></li>
+              <li><a href="#" class="">Гимназия №1</a></li>
+              <li><a href="#" class="">Гимназия №2</a></li>
+              <li><a href="#" class="">Литсей №1</a></li>
+              <li><a href="#" class="">Нурафшон</a></li>
             </div>
           </div>
           <li><a href="MTIK.html" class="">Маркази ТИК</a></li>
@@ -207,7 +209,24 @@
     <br>
     <p class="k">Сомона аз тарафи донишҷӯ Ҷӯраев Комрон омода шудааст.</p>
   </div>
+  <script>//Get the button
+    var mybutton = document.getElementById("myBtn");
 
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }</script>
   <script src="script/comon.js"></script>
 </body>
 

@@ -193,16 +193,16 @@ body.lock {
 }
 .left_l{
   height: 310px;
-  background-color: #FFF;
 }
 .left_l a{
   text-decoration: none;  
-  font-size: 18px;
+  font-size: 20px;
 }
 .left_l li{
   text-align: center;
-  padding-top: 5px;
+  padding-top: 10px;
   display: block;
+  background-color: #ffF;
 }
 .left_l li:hover{
   background-color: #230a3f57;
@@ -273,11 +273,11 @@ body.lock {
   }
  .imc{
   display: inline-block;
-  margin-bottom: 2%;
+  margin-top: 2%;
   text-align: center;
  }
  .imc img{
-  width: 290px;  
+  width: 300px;  
  }
  .sss{
   height: 310px;
@@ -303,7 +303,7 @@ body.lock {
   margin-top: 8%;
   width: 90%;
   height: 270px;
-  
+  border-radius: 3%;
 }
 .lr p{
   text-align: center;

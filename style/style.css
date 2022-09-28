@@ -112,7 +112,7 @@ body.lock {
   margin-top: 2%;
   font-size: 30px;
   font-weight: 900;
-  text-shadow:  #FC0 1px 0 10px;
+  text-shadow:  #3f2e537c 1px 0 10px;
 }
 .navbar-logo2 img{
   position: absolute;
@@ -371,6 +371,15 @@ body.lock {
 .left1{
   float: left;
   width: 50%;  
+}
+.left1 h4{
+  font-size: 120%;
+  text-align: center;
+}
+.dddd{
+  margin-top: 10%;
+  font-size: 110%;
+  font-weight: 600;
 }
 .right1{
   float: left;

@@ -36,6 +36,9 @@
   .sr img{
     height: 70px;
   }
+  .sr h3{
+    font-size: 11px;
+  }
   .prokrutka {  
     height: 400px; /* высота нашего блока */
     }
@@ -59,6 +62,14 @@
     }
     .ss1{
       letter-spacing: 1px;
+    }
+    .ck{
+      width: 98%;
+
+    }
+    .hbr img{
+      width:98%;
+      height: 220px;
     }
 }
 @media (max-width: 768px) {
